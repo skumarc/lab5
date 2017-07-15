@@ -3,6 +3,7 @@ package ca.uwo.csd.cs2212.skumarc;
 public class BankAccount {
 
   private double balance;
+  private int sum;
 
   public BankAccount(double balance) {
     this.balance = balance;
